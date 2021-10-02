@@ -13,4 +13,4 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
     httpd.serve_forever()
 
 
-# python -m http.server 8080 --bind 127.0.0.1
+# python -m http.server 8080 --bind 127.0.0.1 --directory /tmp/
